@@ -7,7 +7,7 @@ var target = $(this).attr('href');
 $('html, body').animate({scrollTop: $(target).offset().top}, 3000);
 return false;
 });
-})
+});
 
 
 // Header Script
